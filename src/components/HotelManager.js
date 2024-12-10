@@ -62,8 +62,8 @@ const HotelManager = () => {
         name: '',
         address: '',
         city: '',
-        tax_Id: '',  // Asegúrate de que se llama taxId, no tax_id
-        max_rooms: '',  // Max rooms se maneja como un número vacío
+        tax_Id: '',  
+        max_rooms: '',  
       });
     } catch (error) {
       console.error('Error saving hotel:', error.response?.data || error.message);

@@ -1,0 +1,141 @@
+/* General Styles */
+.room-manager {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-manager h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .room-manager h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Form Styles */
+  .room-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .room-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .room-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .room-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Rooms List Styles */
+  .rooms-list {
+    margin-top: 20px;
+  }
+  
+  .rooms-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .rooms-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .rooms-list li button {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .rooms-list li button:hover {
+    background-color: #218838;
+  }
+  
+  .rooms-list li .edit-btn {
+    background-color: #ffc107;
+  }
+  
+  .rooms-list li .edit-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .rooms-list li .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .rooms-list li .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .room-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .room-item span {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .room-item .edit-btn,
+  .room-item .delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .room-item .edit-btn {
+    background-color: #ffc107;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .room-item .delete-btn {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .room-item .edit-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .room-item .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
